@@ -5,7 +5,82 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+h1,
+h2 {
+  text-transform: capitalize;
+}
+h1,
+h3 {
+  text-align: center;
+}
+h2,
+p {
+  text-align: left;
+}
+h1 {
+  font-size: 72px;
+  line-height: 98.21px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 38.19px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 35px;
+}
+p {
+  font-weight: 400;
 }
 footer {
   font-family: "Roboto", sans-serif;
+}
+img {
+  border-radius: 12px;
+}
+.second-part {
+  opacity: 0.9;
+  font-size: 18px;
+}
+.hero-image {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.hero {
+  background-image: url(/images/IMG_20220212_101616.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px 100px;
+  margin: 50px 0 40px 0;
+}
+.hero-content {
+  margin: 100px 0px 258px 0px;
+}
+@media (max-width: 990px) {
+  h1 {
+    font-size: 52px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+  }
+  .second-part {
+    opacity: 0.9;
+    font-size: 14px;
+  }
 }
