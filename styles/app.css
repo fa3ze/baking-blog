@@ -127,13 +127,13 @@ img {
 .fav-recepies:active {
   opacity: 0.7;
 }
-.about-fav {
-  max-width: 350px;
-  padding: 20px 0 0 0;
+.recipie-image {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
 }
-.fav-recepie-content {
-  margin: 0 140px 100px 140px;
-}
+
 @media (max-width: 1400px) {
   h1 {
     font-size: 52px;
@@ -179,18 +179,15 @@ img {
     text-align: left;
     font-size: 14px;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
   }
   .favorites {
-    text-align: center;
-    margin-bottom: 40px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    height: 1.5;
   }
   .fav-recepies {
-    font-size: 22px;
-    text-align: center;
-  }
-  .about-fav {
-    padding: 20px;
-    margin: 0 auto;
+    margin-bottom: 30px;
   }
 }
