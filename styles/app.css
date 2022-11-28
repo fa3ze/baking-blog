@@ -1,11 +1,15 @@
+:root {
+  --main-font: "Nunito", sans-serif;
+  --main-weight: 700;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
 }
 h1,
 h2 {
@@ -34,6 +38,7 @@ h3 {
 p {
   font-weight: 400;
   line-height: 30px;
+  font-family: var(--main-font);
 }
 footer {
   font-family: "Roboto", sans-serif;
@@ -68,9 +73,60 @@ img {
 .my-name {
   font-size: 64px;
   line-height: 87.3px;
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  margin: 62px 240px 36px 0px;
 }
 .about-me-paragraph {
   font-size: 18px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  margin: 0px 240px 40px 0px;
+}
+.profile-picture {
+  width: 350px;
+  height: 380px;
+  margin: 0px 40px 100px 240px;
+  margin: 0px 40px 100px 240px;
+}
+.social-link {
+  font-family: var(--main-font);
+  margin: 0 0 163px 0;
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 18px;
+}
+.social-button {
+  color: black;
+  padding: 0px 30px;
+}
+.favorites {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 36px;
+  height: 49.1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.fav-recepies {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 24px;
+  height: 32.74px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.fav-recepies:active {
+  opacity: 0.7;
+}
+.about-fav {
+  max-width: 350px;
+  padding: 20px 0 0 0;
+}
+.fav-recepie-content {
+  margin: 0 140px 100px 140px;
 }
 @media (max-width: 990px) {
   h1 {
