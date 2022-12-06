@@ -7,7 +7,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
   font-family: var(--main-font);
   font-weight: var(--main-weight);
 }
@@ -50,6 +51,35 @@ hr {
   text-decoration: dotted;
   color: #67d5d2;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 22px;
+  margin-left: 15px;
+}
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+a:hover,
+li.active a,
+.information a:hover {
+  color: #662eed;
+}
+.information a {
+  color: #272142;
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+}
 .second-part {
   opacity: 0.9;
   font-size: 18px;
@@ -64,7 +94,7 @@ hr {
   margin: 35px 0 40px 0;
 }
 .hero-content {
-  margin: 100px 0px 258px 0px;
+  margin: 100px 0px 100px 0px;
 }
 .about-section {
   font-family: var(--main-font);
@@ -101,6 +131,10 @@ hr {
   font-weight: var(--main-weight);
   font-size: 18px;
 }
+.socials {
+  color: #272142;
+  padding: 15px;
+}
 .social-button {
   color: black;
   padding: 0px 30px;
@@ -113,7 +147,7 @@ hr {
   text-align: center;
   text-transform: capitalize;
 }
-.fav-recepies {
+.fav-recipes {
   font-family: var(--main-font);
   font-weight: var(--main-weight);
   font-size: 24px;
@@ -123,22 +157,22 @@ hr {
   color: black;
   text-transform: capitalize;
 }
-.fav-recepies:active {
+.fav-recipes:active {
   opacity: 0.7;
 }
-.recipie-image {
+.recipes-image {
   width: 350px;
   height: 350px;
   display: block;
   margin: 0 auto;
 }
-.recepie-page {
+.recipe-page {
   max-width: 760px;
   display: block;
   margin: 0 auto;
 }
 
-.main-recepie {
+.main-recipe {
   font-family: var(--main-font);
   font-weight: var(--main-weight);
   font-size: 36px;
@@ -177,13 +211,37 @@ hr {
   font-size: 18px;
   line-height: 25px;
 }
-.information {
+.information,
+.information a {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
 }
-@media (max-width: 1400px) {
+footer {
+  background-color: #f2f0f5;
+  background-size: cover;
+  padding: 40px;
+}
+
+.logo {
+  max-width: 200px;
+}
+.footer-logo {
+  max-width: 150px;
+  max-height: 150px;
+}
+.footer-links {
+  margin: 0px 180px 0px 180px;
+}
+.footer-note {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 990px) {
   h1 {
     font-size: 52px;
     line-height: 1.5;
@@ -203,13 +261,7 @@ hr {
     font-size: 50px;
     margin: 26px 0px 26px 0px;
   }
-  .profile-picture {
-    width: 350px;
-    height: 350px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 200px;
-  }
+
   .my-name {
     font-size: 40px;
     text-align: center;
@@ -231,10 +283,10 @@ hr {
     font-size: 28px;
     height: 1.5;
   }
-  .fav-recepies {
+  .fav-recipes {
     margin-bottom: 30px;
   }
-  .main-recepie {
+  .main-recipe {
     font-size: 26px;
     margin: 22px 0px 12px 0px;
   }
@@ -253,5 +305,23 @@ hr {
   .information {
     font-size: 18px;
     line-height: 1.5;
+  }
+  .logo {
+    max-height: 50px;
+  }
+  .socials {
+    padding: 3px;
+    font-size: 10px;
+  }
+  .footer-links {
+    margin: 0px 10px 0px 10px;
+  }
+  .footer-logo {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .footer-note {
+    font-size: 12px;
+    font-weight: 1.5;
   }
 }
