@@ -25,7 +25,7 @@ p {
 }
 h1 {
   font-size: 72px;
-  line-height: 98.21px;
+  line-height: 99px;
 }
 h2 {
   font-size: 28px;
@@ -76,7 +76,7 @@ hr {
 }
 .my-name {
   font-size: 64px;
-  line-height: 87.3px;
+  line-height: 88px;
   font-family: var(--main-font);
   font-weight: var(--main-weight);
   text-transform: capitalize;
@@ -142,7 +142,7 @@ hr {
   font-family: var(--main-font);
   font-weight: var(--main-weight);
   font-size: 36px;
-  line-height: 49.1px;
+  line-height: 49px;
   text-transform: capitalize;
   text-align: left;
   margin: 42px 0px 32px 0px;
@@ -155,7 +155,7 @@ hr {
   font-family: var(--main-font);
   font-weight: var(--main-weight);
   font-size: 24px;
-  line-height: 32.74px;
+  line-height: 33px;
 }
 .steps {
   font-family: var(--main-font);
@@ -167,6 +167,21 @@ hr {
 .main-steps {
   color: #f65282;
   font-weight: var(--main-weight);
+}
+
+.info {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  text-transform: uppercase;
+  color: #662eed;
+  font-size: 18px;
+  line-height: 25px;
+}
+.information {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
 }
 @media (max-width: 1400px) {
   h1 {
@@ -229,6 +244,14 @@ hr {
   }
   .steps {
     font-size: 14px;
+    line-height: 1.5;
+  }
+  .info {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .information {
+    font-size: 18px;
     line-height: 1.5;
   }
 }
