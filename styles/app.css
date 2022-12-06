@@ -72,7 +72,8 @@ nav a {
 }
 a:hover,
 li.active a,
-.information a:hover {
+.information a:hover,
+.footer-note a:hover {
   color: #662eed;
 }
 .information a {
@@ -146,6 +147,9 @@ li.active a,
   height: 49.1px;
   text-align: center;
   text-transform: capitalize;
+}
+.fav-recipe-content {
+  padding-bottom: 100px;
 }
 .fav-recipes {
   font-family: var(--main-font);
@@ -239,6 +243,11 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+.footer-note a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 990px) {
