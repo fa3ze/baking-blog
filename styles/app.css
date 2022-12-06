@@ -46,16 +46,15 @@ footer {
 img {
   border-radius: 12px;
 }
+hr {
+  text-decoration: dotted;
+  color: #67d5d2;
+}
 .second-part {
   opacity: 0.9;
   font-size: 18px;
 }
-.hero-image {
-  width: 350px;
-  height: 350px;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
+
 .hero {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
@@ -133,7 +132,42 @@ img {
   display: block;
   margin: 0 auto;
 }
+.recepie-page {
+  max-width: 760px;
+  display: block;
+  margin: 0 auto;
+}
 
+.main-recepie {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 36px;
+  line-height: 49.1px;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 42px 0px 32px 0px;
+}
+.method-section {
+  float: left;
+  padding: 0;
+}
+.method {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 24px;
+  line-height: 32.74px;
+}
+.steps {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 12px;
+}
+.main-steps {
+  color: #f65282;
+  font-weight: var(--main-weight);
+}
 @media (max-width: 1400px) {
   h1 {
     font-size: 52px;
@@ -146,16 +180,11 @@ img {
     font-size: 22px;
     line-height: 1.5;
   }
-  .hero-image {
-    display: block;
-    margin: 0 auto;
-  }
   .second-part {
     opacity: 0.9;
     font-size: 16px;
   }
   .about-section {
-    margin: ;
     font-size: 50px;
     margin: 26px 0px 26px 0px;
   }
@@ -189,5 +218,17 @@ img {
   }
   .fav-recepies {
     margin-bottom: 30px;
+  }
+  .main-recepie {
+    font-size: 26px;
+    margin: 22px 0px 12px 0px;
+  }
+  .method {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .steps {
+    font-size: 14px;
+    line-height: 1.5;
   }
 }
